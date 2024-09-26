@@ -30,7 +30,7 @@ export default function Question_02() {
     { "name" : "沖縄県", "population" : 1467480 }
   ];
 
-  const result = kyusyu.map((el, index) => {
+    const result = kyusyu.map((el, index) => {
     return (
       <li key={index}>
         <div>No.</div>
